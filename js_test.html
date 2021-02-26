@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<table id="myTable" width="100%">
+		<tr><p id="display">0</p></tr>
+  		<tr>
+   			<td id="td_clean"></td>
+   			<td onclick="root()">sqrt</td>
+   			<td onclick="square()">x^2</td>
+   			<td onclick="oneDivX()">1/x</td>
+  		</tr>
+  		<tr>
+   			<td onclick="clean()">c</td>
+   			<td onclick="del()">del</td>
+   			<td onclick="dot()">.</td>
+   			<td onclick="div()">/</td>
+  		</tr>
+  		<tr>
+   			<td onclick="clickNumber(7)">7</td>
+   			<td onclick="clickNumber(8)">8</td>
+   			<td onclick="clickNumber(9)">9</td>
+   			<td onclick="mult()">*</td>
+  		</tr>
+  		<tr>
+   			<td onclick="clickNumber(4)">4</td>
+   			<td onclick="clickNumber(5)">5</td>
+   			<td onclick="clickNumber(6)">6</td>
+   			<td onclick="minus()">-</td>
+  		</tr>
+  		<tr>
+   			<td onclick="clickNumber(1)">1</td>
+   			<td onclick="clickNumber(2)">2</td>
+   			<td onclick="clickNumber(3)">3</td>
+   			<td onclick="plus()">+</td>
+  		</tr>
+  		<tr>
+   			<td id="td_clean"></td>
+   			<td onclick="clickNumber(0)">0</td>
+   			<td id="td_clean"></td>
+   			<td onclick="equal()">=</td>
+  		</tr>
+
+
+	</table>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
